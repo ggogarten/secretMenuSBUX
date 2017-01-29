@@ -13,6 +13,10 @@
 		3E75AD7E1E3E1EC8001FC553 /* Secret_Menu_for_Starbucks_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD7C1E3E1EC8001FC553 /* Secret_Menu_for_Starbucks_2.xcdatamodeld */; };
 		3E75AD801E3E1EC8001FC553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD7F1E3E1EC8001FC553 /* Assets.xcassets */; };
 		3E75AD831E3E1EC8001FC553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD811E3E1EC8001FC553 /* LaunchScreen.storyboard */; };
+		3E75AD8B1E3E2365001FC553 /* StoreFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD8A1E3E2365001FC553 /* StoreFinderViewController.swift */; };
+		3E75AD8D1E3E246F001FC553 /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */; };
+		3E75AD8F1E3E25A0001FC553 /* 1485718129_Appliances-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD8E1E3E25A0001FC553 /* 1485718129_Appliances-26.png */; };
+		3E75AD911E3E2827001FC553 /* 1485718777_Appliances-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD901E3E2827001FC553 /* 1485718777_Appliances-26.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		3E75AD7F1E3E1EC8001FC553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E75AD821E3E1EC8001FC553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E75AD841E3E1EC8001FC553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E75AD8A1E3E2365001FC553 /* StoreFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreFinderViewController.swift; sourceTree = "<group>"; };
+		3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinksTableViewController.swift; sourceTree = "<group>"; };
+		3E75AD8E1E3E25A0001FC553 /* 1485718129_Appliances-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1485718129_Appliances-26.png"; sourceTree = "<group>"; };
+		3E75AD901E3E2827001FC553 /* 1485718777_Appliances-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1485718777_Appliances-26.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 			children = (
 				3E75AD741E3E1EC8001FC553 /* Secret Menu for Starbucks 2 */,
 				3E75AD731E3E1EC8001FC553 /* Products */,
+				3E75AD8E1E3E25A0001FC553 /* 1485718129_Appliances-26.png */,
+				3E75AD901E3E2827001FC553 /* 1485718777_Appliances-26.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +69,8 @@
 				3E75AD751E3E1EC8001FC553 /* AppDelegate.swift */,
 				3E75AD771E3E1EC8001FC553 /* ViewController.swift */,
 				3E75AD791E3E1EC8001FC553 /* Main.storyboard */,
+				3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */,
+				3E75AD8A1E3E2365001FC553 /* StoreFinderViewController.swift */,
 				3E75AD7F1E3E1EC8001FC553 /* Assets.xcassets */,
 				3E75AD811E3E1EC8001FC553 /* LaunchScreen.storyboard */,
 				3E75AD841E3E1EC8001FC553 /* Info.plist */,
@@ -127,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E75AD911E3E2827001FC553 /* 1485718777_Appliances-26.png in Resources */,
 				3E75AD831E3E1EC8001FC553 /* LaunchScreen.storyboard in Resources */,
+				3E75AD8F1E3E25A0001FC553 /* 1485718129_Appliances-26.png in Resources */,
 				3E75AD801E3E1EC8001FC553 /* Assets.xcassets in Resources */,
 				3E75AD7B1E3E1EC8001FC553 /* Main.storyboard in Resources */,
 			);
@@ -141,7 +155,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E75AD7E1E3E1EC8001FC553 /* Secret_Menu_for_Starbucks_2.xcdatamodeld in Sources */,
+				3E75AD8D1E3E246F001FC553 /* DrinksTableViewController.swift in Sources */,
 				3E75AD781E3E1EC8001FC553 /* ViewController.swift in Sources */,
+				3E75AD8B1E3E2365001FC553 /* StoreFinderViewController.swift in Sources */,
 				3E75AD761E3E1EC8001FC553 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
