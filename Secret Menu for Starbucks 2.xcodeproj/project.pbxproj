@@ -15,9 +15,14 @@
 		3E75AD831E3E1EC8001FC553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD811E3E1EC8001FC553 /* LaunchScreen.storyboard */; };
 		3E75AD8B1E3E2365001FC553 /* StoreFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD8A1E3E2365001FC553 /* StoreFinderViewController.swift */; };
 		3E75AD8D1E3E246F001FC553 /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */; };
-		3E75AD8F1E3E25A0001FC553 /* 1485718129_Appliances-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD8E1E3E25A0001FC553 /* 1485718129_Appliances-26.png */; };
-		3E75AD911E3E2827001FC553 /* 1485718777_Appliances-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD901E3E2827001FC553 /* 1485718777_Appliances-26.png */; };
 		3E75AD931E3E2954001FC553 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD921E3E2954001FC553 /* MenuTableViewController.swift */; };
+		3E75AD951E3E2B58001FC553 /* settingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD941E3E2B58001FC553 /* settingsIcon.png */; };
+		3E75AD971E3E2B64001FC553 /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD961E3E2B64001FC553 /* locationIcon.png */; };
+		3E75AD991E3E2C8F001FC553 /* favoritesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD981E3E2C8F001FC553 /* favoritesIcon.png */; };
+		3E75ADA21E3E2EC8001FC553 /* hotDrinkIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD9E1E3E2EC8001FC553 /* hotDrinkIcon.png */; };
+		3E75ADA31E3E2EC8001FC553 /* frappuccinoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD9F1E3E2EC8001FC553 /* frappuccinoIcon.png */; };
+		3E75ADA41E3E2EC8001FC553 /* teaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75ADA01E3E2EC8001FC553 /* teaIcon.png */; };
+		3E75ADA51E3E2EC8001FC553 /* coldDrinkIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75ADA11E3E2EC8001FC553 /* coldDrinkIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +36,14 @@
 		3E75AD841E3E1EC8001FC553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E75AD8A1E3E2365001FC553 /* StoreFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreFinderViewController.swift; sourceTree = "<group>"; };
 		3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinksTableViewController.swift; sourceTree = "<group>"; };
-		3E75AD8E1E3E25A0001FC553 /* 1485718129_Appliances-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1485718129_Appliances-26.png"; sourceTree = "<group>"; };
-		3E75AD901E3E2827001FC553 /* 1485718777_Appliances-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1485718777_Appliances-26.png"; sourceTree = "<group>"; };
 		3E75AD921E3E2954001FC553 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		3E75AD941E3E2B58001FC553 /* settingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsIcon.png; sourceTree = "<group>"; };
+		3E75AD961E3E2B64001FC553 /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationIcon.png; sourceTree = "<group>"; };
+		3E75AD981E3E2C8F001FC553 /* favoritesIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favoritesIcon.png; sourceTree = "<group>"; };
+		3E75AD9E1E3E2EC8001FC553 /* hotDrinkIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotDrinkIcon.png; sourceTree = "<group>"; };
+		3E75AD9F1E3E2EC8001FC553 /* frappuccinoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frappuccinoIcon.png; sourceTree = "<group>"; };
+		3E75ADA01E3E2EC8001FC553 /* teaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teaIcon.png; sourceTree = "<group>"; };
+		3E75ADA11E3E2EC8001FC553 /* coldDrinkIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coldDrinkIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,13 @@
 			children = (
 				3E75AD741E3E1EC8001FC553 /* Secret Menu for Starbucks 2 */,
 				3E75AD731E3E1EC8001FC553 /* Products */,
-				3E75AD8E1E3E25A0001FC553 /* 1485718129_Appliances-26.png */,
-				3E75AD901E3E2827001FC553 /* 1485718777_Appliances-26.png */,
+				3E75AD941E3E2B58001FC553 /* settingsIcon.png */,
+				3E75AD961E3E2B64001FC553 /* locationIcon.png */,
+				3E75AD981E3E2C8F001FC553 /* favoritesIcon.png */,
+				3E75AD9E1E3E2EC8001FC553 /* hotDrinkIcon.png */,
+				3E75AD9F1E3E2EC8001FC553 /* frappuccinoIcon.png */,
+				3E75ADA01E3E2EC8001FC553 /* teaIcon.png */,
+				3E75ADA11E3E2EC8001FC553 /* coldDrinkIcon.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,10 +157,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E75AD911E3E2827001FC553 /* 1485718777_Appliances-26.png in Resources */,
+				3E75ADA51E3E2EC8001FC553 /* coldDrinkIcon.png in Resources */,
 				3E75AD831E3E1EC8001FC553 /* LaunchScreen.storyboard in Resources */,
-				3E75AD8F1E3E25A0001FC553 /* 1485718129_Appliances-26.png in Resources */,
+				3E75ADA41E3E2EC8001FC553 /* teaIcon.png in Resources */,
+				3E75ADA21E3E2EC8001FC553 /* hotDrinkIcon.png in Resources */,
+				3E75AD991E3E2C8F001FC553 /* favoritesIcon.png in Resources */,
+				3E75AD971E3E2B64001FC553 /* locationIcon.png in Resources */,
 				3E75AD801E3E1EC8001FC553 /* Assets.xcassets in Resources */,
+				3E75ADA31E3E2EC8001FC553 /* frappuccinoIcon.png in Resources */,
+				3E75AD951E3E2B58001FC553 /* settingsIcon.png in Resources */,
 				3E75AD7B1E3E1EC8001FC553 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

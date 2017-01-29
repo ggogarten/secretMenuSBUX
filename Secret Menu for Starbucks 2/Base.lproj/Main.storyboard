@@ -94,14 +94,14 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2Ng-Mz-fOd">
                                                     <rect key="frame" x="0.0" y="10.5" width="375" height="48.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1485718777_Appliances-26.png" translatesAutoresizingMaskIntoConstraints="NO" id="ob4-iG-huT">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frappuccinoIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="ob4-iG-huT">
                                                             <rect key="frame" x="0.0" y="0.0" width="48" height="48.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="48" id="W4u-OQ-1mx"/>
                                                                 <constraint firstAttribute="height" constant="48" id="r21-rC-plI"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frappucinos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIL-2V-TR4">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Frappuccinos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIL-2V-TR4">
                                                             <rect key="frame" x="68" y="0.0" width="307" height="48.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
@@ -127,7 +127,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Vnj-hR-7v6">
                                                     <rect key="frame" x="0.0" y="10.5" width="375" height="48.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1485718777_Appliances-26.png" translatesAutoresizingMaskIntoConstraints="NO" id="O5W-HC-9fD">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotDrinkIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="O5W-HC-9fD">
                                                             <rect key="frame" x="0.0" y="0.0" width="48" height="48.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="48" id="SKx-3g-kUV"/>
@@ -160,7 +160,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7XF-fu-eYP">
                                                     <rect key="frame" x="0.0" y="10.5" width="375" height="48.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1485718777_Appliances-26.png" translatesAutoresizingMaskIntoConstraints="NO" id="WfH-5w-aN1">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coldDrinkIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="WfH-5w-aN1">
                                                             <rect key="frame" x="0.0" y="0.0" width="48" height="48.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="48" id="Ms1-dk-mBJ"/>
@@ -193,7 +193,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="XMA-wg-DaY">
                                                     <rect key="frame" x="0.0" y="10.5" width="375" height="48.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1485718777_Appliances-26.png" translatesAutoresizingMaskIntoConstraints="NO" id="XZV-2i-NaY">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teaIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="XZV-2i-NaY">
                                                             <rect key="frame" x="0.0" y="0.0" width="48" height="48.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="48" id="d6K-ov-C1U"/>
@@ -226,7 +226,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="CHH-Qp-o52">
                                                     <rect key="frame" x="0.0" y="10.5" width="375" height="48.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1485718777_Appliances-26.png" translatesAutoresizingMaskIntoConstraints="NO" id="GKM-kJ-uH6">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favoritesIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="GKM-kJ-uH6">
                                                             <rect key="frame" x="0.0" y="0.0" width="48" height="48.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="48" id="ahD-L7-aQB"/>
@@ -259,7 +259,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="LMh-e6-rIx">
                                                     <rect key="frame" x="0.0" y="10.5" width="375" height="48.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1485718777_Appliances-26.png" translatesAutoresizingMaskIntoConstraints="NO" id="nvg-nI-w2e">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locationIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="nvg-nI-w2e">
                                                             <rect key="frame" x="0.0" y="0.0" width="48" height="48.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="48" id="R1t-SS-vra"/>
@@ -292,7 +292,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="DCY-wa-1S0">
                                                     <rect key="frame" x="0.0" y="10.5" width="375" height="48.5"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1485718777_Appliances-26.png" translatesAutoresizingMaskIntoConstraints="NO" id="sHx-7V-04c">
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settingsIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="sHx-7V-04c">
                                                             <rect key="frame" x="0.0" y="0.0" width="48" height="48.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="48" id="VAE-lV-ACr"/>
@@ -393,6 +393,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1485718777_Appliances-26.png" width="48" height="48"/>
+        <image name="coldDrinkIcon.png" width="48" height="48"/>
+        <image name="favoritesIcon.png" width="48" height="48"/>
+        <image name="frappuccinoIcon.png" width="48" height="48"/>
+        <image name="hotDrinkIcon.png" width="128" height="128"/>
+        <image name="locationIcon.png" width="48" height="48"/>
+        <image name="settingsIcon.png" width="48" height="48"/>
+        <image name="teaIcon.png" width="48" height="48"/>
     </resources>
 </document>
