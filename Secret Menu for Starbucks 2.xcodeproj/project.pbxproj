@@ -17,6 +17,7 @@
 		3E75AD8D1E3E246F001FC553 /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */; };
 		3E75AD8F1E3E25A0001FC553 /* 1485718129_Appliances-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD8E1E3E25A0001FC553 /* 1485718129_Appliances-26.png */; };
 		3E75AD911E3E2827001FC553 /* 1485718777_Appliances-26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD901E3E2827001FC553 /* 1485718777_Appliances-26.png */; };
+		3E75AD931E3E2954001FC553 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD921E3E2954001FC553 /* MenuTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinksTableViewController.swift; sourceTree = "<group>"; };
 		3E75AD8E1E3E25A0001FC553 /* 1485718129_Appliances-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1485718129_Appliances-26.png"; sourceTree = "<group>"; };
 		3E75AD901E3E2827001FC553 /* 1485718777_Appliances-26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1485718777_Appliances-26.png"; sourceTree = "<group>"; };
+		3E75AD921E3E2954001FC553 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				3E75AD751E3E1EC8001FC553 /* AppDelegate.swift */,
 				3E75AD771E3E1EC8001FC553 /* ViewController.swift */,
 				3E75AD791E3E1EC8001FC553 /* Main.storyboard */,
+				3E75AD921E3E2954001FC553 /* MenuTableViewController.swift */,
 				3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */,
 				3E75AD8A1E3E2365001FC553 /* StoreFinderViewController.swift */,
 				3E75AD7F1E3E1EC8001FC553 /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 			files = (
 				3E75AD7E1E3E1EC8001FC553 /* Secret_Menu_for_Starbucks_2.xcdatamodeld in Sources */,
 				3E75AD8D1E3E246F001FC553 /* DrinksTableViewController.swift in Sources */,
+				3E75AD931E3E2954001FC553 /* MenuTableViewController.swift in Sources */,
 				3E75AD781E3E1EC8001FC553 /* ViewController.swift in Sources */,
 				3E75AD8B1E3E2365001FC553 /* StoreFinderViewController.swift in Sources */,
 				3E75AD761E3E1EC8001FC553 /* AppDelegate.swift in Sources */,
