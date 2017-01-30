@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E6988B91E3E3065004E45F2 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6988B81E3E3065004E45F2 /* SWRevealViewController.m */; };
+		3E6988BD1E3E3579004E45F2 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6988BA1E3E3579004E45F2 /* menu.png */; };
+		3E6988BE1E3E3579004E45F2 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6988BB1E3E3579004E45F2 /* menu@2x.png */; };
+		3E6988BF1E3E3579004E45F2 /* menu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6988BC1E3E3579004E45F2 /* menu@3x.png */; };
 		3E75AD761E3E1EC8001FC553 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD751E3E1EC8001FC553 /* AppDelegate.swift */; };
 		3E75AD781E3E1EC8001FC553 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD771E3E1EC8001FC553 /* ViewController.swift */; };
 		3E75AD7B1E3E1EC8001FC553 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD791E3E1EC8001FC553 /* Main.storyboard */; };
@@ -14,7 +18,6 @@
 		3E75AD801E3E1EC8001FC553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD7F1E3E1EC8001FC553 /* Assets.xcassets */; };
 		3E75AD831E3E1EC8001FC553 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD811E3E1EC8001FC553 /* LaunchScreen.storyboard */; };
 		3E75AD8B1E3E2365001FC553 /* StoreFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD8A1E3E2365001FC553 /* StoreFinderViewController.swift */; };
-		3E75AD8D1E3E246F001FC553 /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */; };
 		3E75AD931E3E2954001FC553 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E75AD921E3E2954001FC553 /* MenuTableViewController.swift */; };
 		3E75AD951E3E2B58001FC553 /* settingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD941E3E2B58001FC553 /* settingsIcon.png */; };
 		3E75AD971E3E2B64001FC553 /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD961E3E2B64001FC553 /* locationIcon.png */; };
@@ -23,9 +26,19 @@
 		3E75ADA31E3E2EC8001FC553 /* frappuccinoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75AD9F1E3E2EC8001FC553 /* frappuccinoIcon.png */; };
 		3E75ADA41E3E2EC8001FC553 /* teaIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75ADA01E3E2EC8001FC553 /* teaIcon.png */; };
 		3E75ADA51E3E2EC8001FC553 /* coldDrinkIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E75ADA11E3E2EC8001FC553 /* coldDrinkIcon.png */; };
+		3E9525B41E3E7C7C00131EBD /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9525B31E3E7C7C00131EBD /* DrinksTableViewController.swift */; };
+		3E9525D91E3EC25100131EBD /* DrinkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9525D81E3EC25100131EBD /* DrinkDetailViewController.swift */; };
+		3E95263E1E3EEB8800131EBD /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95263D1E3EEB8800131EBD /* DrinkTableViewCell.swift */; };
+		3E9526401E3EF4B400131EBD /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95263F1E3EF4B400131EBD /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E6988B61E3E3064004E45F2 /* Secret Menu for Starbucks 2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Secret Menu for Starbucks 2-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E6988B71E3E3065004E45F2 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3E6988B81E3E3065004E45F2 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3E6988BA1E3E3579004E45F2 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		3E6988BB1E3E3579004E45F2 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		3E6988BC1E3E3579004E45F2 /* menu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@3x.png"; sourceTree = "<group>"; };
 		3E75AD721E3E1EC8001FC553 /* Secret Menu for Starbucks 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Menu for Starbucks 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E75AD751E3E1EC8001FC553 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E75AD771E3E1EC8001FC553 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +48,6 @@
 		3E75AD821E3E1EC8001FC553 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E75AD841E3E1EC8001FC553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E75AD8A1E3E2365001FC553 /* StoreFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreFinderViewController.swift; sourceTree = "<group>"; };
-		3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinksTableViewController.swift; sourceTree = "<group>"; };
 		3E75AD921E3E2954001FC553 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		3E75AD941E3E2B58001FC553 /* settingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsIcon.png; sourceTree = "<group>"; };
 		3E75AD961E3E2B64001FC553 /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationIcon.png; sourceTree = "<group>"; };
@@ -44,6 +56,10 @@
 		3E75AD9F1E3E2EC8001FC553 /* frappuccinoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frappuccinoIcon.png; sourceTree = "<group>"; };
 		3E75ADA01E3E2EC8001FC553 /* teaIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teaIcon.png; sourceTree = "<group>"; };
 		3E75ADA11E3E2EC8001FC553 /* coldDrinkIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coldDrinkIcon.png; sourceTree = "<group>"; };
+		3E9525B31E3E7C7C00131EBD /* DrinksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinksTableViewController.swift; sourceTree = "<group>"; };
+		3E9525D81E3EC25100131EBD /* DrinkDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkDetailViewController.swift; sourceTree = "<group>"; };
+		3E95263D1E3EEB8800131EBD /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
+		3E95263F1E3EF4B400131EBD /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E6988B51E3E3026004E45F2 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3E6988B71E3E3065004E45F2 /* SWRevealViewController.h */,
+				3E6988B81E3E3065004E45F2 /* SWRevealViewController.m */,
+				3E6988B61E3E3064004E45F2 /* Secret Menu for Starbucks 2-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
 		3E75AD691E3E1EC8001FC553 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +95,9 @@
 				3E75AD9F1E3E2EC8001FC553 /* frappuccinoIcon.png */,
 				3E75ADA01E3E2EC8001FC553 /* teaIcon.png */,
 				3E75ADA11E3E2EC8001FC553 /* coldDrinkIcon.png */,
+				3E6988BA1E3E3579004E45F2 /* menu.png */,
+				3E6988BB1E3E3579004E45F2 /* menu@2x.png */,
+				3E6988BC1E3E3579004E45F2 /* menu@3x.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +112,15 @@
 		3E75AD741E3E1EC8001FC553 /* Secret Menu for Starbucks 2 */ = {
 			isa = PBXGroup;
 			children = (
+				3E6988B51E3E3026004E45F2 /* SWRevealViewController */,
 				3E75AD751E3E1EC8001FC553 /* AppDelegate.swift */,
 				3E75AD771E3E1EC8001FC553 /* ViewController.swift */,
 				3E75AD791E3E1EC8001FC553 /* Main.storyboard */,
+				3E95263F1E3EF4B400131EBD /* UploadViewController.swift */,
+				3E9525D81E3EC25100131EBD /* DrinkDetailViewController.swift */,
+				3E9525B31E3E7C7C00131EBD /* DrinksTableViewController.swift */,
+				3E95263D1E3EEB8800131EBD /* DrinkTableViewCell.swift */,
 				3E75AD921E3E2954001FC553 /* MenuTableViewController.swift */,
-				3E75AD8C1E3E246F001FC553 /* DrinksTableViewController.swift */,
 				3E75AD8A1E3E2365001FC553 /* StoreFinderViewController.swift */,
 				3E75AD7F1E3E1EC8001FC553 /* Assets.xcassets */,
 				3E75AD811E3E1EC8001FC553 /* LaunchScreen.storyboard */,
@@ -130,6 +163,7 @@
 					3E75AD711E3E1EC8001FC553 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = C8G9U4K76Y;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -158,13 +192,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E75ADA51E3E2EC8001FC553 /* coldDrinkIcon.png in Resources */,
+				3E6988BE1E3E3579004E45F2 /* menu@2x.png in Resources */,
 				3E75AD831E3E1EC8001FC553 /* LaunchScreen.storyboard in Resources */,
 				3E75ADA41E3E2EC8001FC553 /* teaIcon.png in Resources */,
 				3E75ADA21E3E2EC8001FC553 /* hotDrinkIcon.png in Resources */,
 				3E75AD991E3E2C8F001FC553 /* favoritesIcon.png in Resources */,
 				3E75AD971E3E2B64001FC553 /* locationIcon.png in Resources */,
 				3E75AD801E3E1EC8001FC553 /* Assets.xcassets in Resources */,
+				3E6988BF1E3E3579004E45F2 /* menu@3x.png in Resources */,
 				3E75ADA31E3E2EC8001FC553 /* frappuccinoIcon.png in Resources */,
+				3E6988BD1E3E3579004E45F2 /* menu.png in Resources */,
 				3E75AD951E3E2B58001FC553 /* settingsIcon.png in Resources */,
 				3E75AD7B1E3E1EC8001FC553 /* Main.storyboard in Resources */,
 			);
@@ -177,9 +214,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E6988B91E3E3065004E45F2 /* SWRevealViewController.m in Sources */,
+				3E9526401E3EF4B400131EBD /* UploadViewController.swift in Sources */,
+				3E9525B41E3E7C7C00131EBD /* DrinksTableViewController.swift in Sources */,
 				3E75AD7E1E3E1EC8001FC553 /* Secret_Menu_for_Starbucks_2.xcdatamodeld in Sources */,
-				3E75AD8D1E3E246F001FC553 /* DrinksTableViewController.swift in Sources */,
 				3E75AD931E3E2954001FC553 /* MenuTableViewController.swift in Sources */,
+				3E95263E1E3EEB8800131EBD /* DrinkTableViewCell.swift in Sources */,
+				3E9525D91E3EC25100131EBD /* DrinkDetailViewController.swift in Sources */,
 				3E75AD781E3E1EC8001FC553 /* ViewController.swift in Sources */,
 				3E75AD8B1E3E2365001FC553 /* StoreFinderViewController.swift in Sources */,
 				3E75AD761E3E1EC8001FC553 /* AppDelegate.swift in Sources */,
@@ -305,11 +346,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = C8G9U4K76Y;
 				INFOPLIST_FILE = "Secret Menu for Starbucks 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ggogarten.Secret-Menu-for-Starbucks-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Secret Menu for Starbucks 2/Secret Menu for Starbucks 2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -318,11 +362,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = C8G9U4K76Y;
 				INFOPLIST_FILE = "Secret Menu for Starbucks 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ggogarten.Secret-Menu-for-Starbucks-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Secret Menu for Starbucks 2/Secret Menu for Starbucks 2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -346,6 +392,7 @@
 				3E75AD891E3E1EC8001FC553 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

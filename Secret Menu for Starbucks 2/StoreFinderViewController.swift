@@ -10,9 +10,31 @@ import UIKit
 
 class StoreFinderViewController: UIViewController {
 
+    @IBOutlet weak var menuButton: UIBarButtonItem!
+   
+  
+    @IBAction func refreshButton(_ sender: Any) {
+        webView.reload()
+    }
+    
+    @IBOutlet weak var webView: UIWebView!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if self.revealViewController() != nil {
+            menuButton.target = self.revealViewController()
+            menuButton.action = "revealToggle:"
+            self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
+        }
+       
+        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor(red: 0/255, green: 112/255, blue: 74/255, alpha: 1.0)]
 
+        webView.loadRequest(NSURLRequest(url: NSURL(string: "https://www.loxcel.com/sbux")! as URL) as URLRequest)
+        
         // Do any additional setup after loading the view.
     }
 
