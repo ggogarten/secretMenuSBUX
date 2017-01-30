@@ -30,6 +30,7 @@
 		3E9525D91E3EC25100131EBD /* DrinkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9525D81E3EC25100131EBD /* DrinkDetailViewController.swift */; };
 		3E95263E1E3EEB8800131EBD /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95263D1E3EEB8800131EBD /* DrinkTableViewCell.swift */; };
 		3E9526401E3EF4B400131EBD /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E95263F1E3EF4B400131EBD /* UploadViewController.swift */; };
+		3E9526421E3F17F000131EBD /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 3E9526411E3F17F000131EBD /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		3E9525D81E3EC25100131EBD /* DrinkDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkDetailViewController.swift; sourceTree = "<group>"; };
 		3E95263D1E3EEB8800131EBD /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
 		3E95263F1E3EF4B400131EBD /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		3E9526411E3F17F000131EBD /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3E6988BA1E3E3579004E45F2 /* menu.png */,
 				3E6988BB1E3E3579004E45F2 /* menu@2x.png */,
 				3E6988BC1E3E3579004E45F2 /* menu@3x.png */,
+				3E9526411E3F17F000131EBD /* test.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -196,6 +199,7 @@
 				3E75AD831E3E1EC8001FC553 /* LaunchScreen.storyboard in Resources */,
 				3E75ADA41E3E2EC8001FC553 /* teaIcon.png in Resources */,
 				3E75ADA21E3E2EC8001FC553 /* hotDrinkIcon.png in Resources */,
+				3E9526421E3F17F000131EBD /* test.json in Resources */,
 				3E75AD991E3E2C8F001FC553 /* favoritesIcon.png in Resources */,
 				3E75AD971E3E2B64001FC553 /* locationIcon.png in Resources */,
 				3E75AD801E3E1EC8001FC553 /* Assets.xcassets in Resources */,
