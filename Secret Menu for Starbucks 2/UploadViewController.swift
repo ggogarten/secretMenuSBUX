@@ -97,21 +97,23 @@ class UploadViewController: UIViewController {
                         
                         print(item["recipe"])
                         
-                        print(item["frappuccino"])
+                        print(item["frappuccinos"])
                         
                         
-                        let newEvent = Drink(context: context)
+                        let newDrink = Drink(context: context)
                         
                         
                         // If appropriate, configure the new managed object.
 //                        newEvent.timeStamp = NSDate()
-                        newEvent.setValue(item["drinkName"] as! String, forKey: "drinkName")
-//                        newEvent.setValue(item["title"] as! String, forKey: "title")
-//                        newEvent.setValue(item["content"] as! String, forKey: "content")
+                        newDrink.setValue(item["drinkName"] as! String, forKey: "drinkName")
+//                        newDrink.setValue(item[true] as! Bool, forKey: "frappuccinos")
+                        newDrink.setValue(true, forKey: "frappuccinos")
+                        newDrink.setValue(item["recipe"] as! String, forKey: "recipe")
                         
                         // Save the context.
                         do {
                             try context.save()
+                            
                         } catch {
                             // Replace this implementation with code to handle the error appropriately.
                             // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.

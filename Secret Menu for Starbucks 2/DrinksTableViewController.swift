@@ -27,6 +27,7 @@ class DrinksTableViewController: UITableViewController, NSFetchedResultsControll
         
         // Configure Fetch Request
         fetchRequest.sortDescriptors = [NSSortDescriptor(key: "drinkName", ascending: true)]
+        fetchRequest.predicate = NSPredicate(format: "frappuccinos == true")
         
         // Create Fetched Results Controller
         let fetchedResultsController = NSFetchedResultsController(fetchRequest: fetchRequest, managedObjectContext: self.persistentContainer.viewContext, sectionNameKeyPath: nil, cacheName: nil)
